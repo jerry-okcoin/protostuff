@@ -25,8 +25,8 @@
     <stringtemplate-version>3.2.1</stringtemplate-version>
     <mavenVersion>3.2.3</mavenVersion>
     <jmh.version>1.23</jmh.version>
-    <javac.target>1.6</javac.target>
-    <javadoc.source>6</javadoc.source>
+    <javac.target>1.8</javac.target>
+    <javadoc.source>8</javadoc.source>
   </properties>
 
   <developers>
@@ -42,12 +42,12 @@
     </developer>
   </developers>
 
-  <scm>
-    <url>https://github.com/protostuff/protostuff</url>
-    <connection>scm:git:https://github.com/protostuff/protostuff.git</connection>
-    <developerConnection>scm:git:git@github.com:protostuff/protostuff.git</developerConnection>
-    <tag>protostuff-1.3.2</tag>
-  </scm>
+<!--  <scm>-->
+<!--    <url>https://github.com/protostuff/protostuff</url>-->
+<!--    <connection>scm:git:https://github.com/protostuff/protostuff.git</connection>-->
+<!--    <developerConnection>scm:git:git@github.com:protostuff/protostuff.git</developerConnection>-->
+<!--    <tag>protostuff-1.3.2</tag>-->
+<!--  </scm>-->
 
   <licenses>
     <license>
@@ -287,14 +287,19 @@
   </build>
 
   <distributionManagement>
+<!--    <repository>-->
+<!--      <id>sonatype-nexus-staging</id>-->
+<!--      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>-->
+<!--    </repository>-->
+<!--    <snapshotRepository>-->
+<!--      <id>sonatype-nexus-snapshots</id>-->
+<!--      <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--    </snapshotRepository>-->
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <id>okg.nexus.repo.qp</id>
+      <name>OKG Nexus QP Releases Repo</name>
+      <url>https://nexus.okg.com/repository/qp-releases/</url>
     </repository>
-    <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <profiles>

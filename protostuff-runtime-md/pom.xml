@@ -103,19 +103,19 @@
       <artifactId>mockito-core</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>io.protostuff</groupId>
-      <artifactId>protostuff-core</artifactId>
-      <version>${project.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.protostuff</groupId>
-      <artifactId>protostuff-core</artifactId>
-      <version>${project.version}</version>
-      <scope>test</scope>
-      <classifier>tests</classifier>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>io.protostuff</groupId>-->
+<!--      <artifactId>protostuff-core</artifactId>-->
+<!--      <version>${project.version}</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>io.protostuff</groupId>-->
+<!--      <artifactId>protostuff-core</artifactId>-->
+<!--      <version>${project.version}</version>-->
+<!--      <scope>test</scope>-->
+<!--      <classifier>tests</classifier>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>io.protostuff</groupId>
       <artifactId>protostuff-api</artifactId>
